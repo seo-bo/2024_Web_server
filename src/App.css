@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 30px;
+  background-color: #A8D1D1;
+}
+
+.playlist {
+  padding: 20px;
+  margin-bottom: 16px;
+  background-color: #FD8A8A;
+}
+
+.container {
+  position: relative;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.song-title {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+  padding: 16px 0px;
+  text-align: center;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.song-lyrics {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #faf2e8;
+  color: #555555;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.song-rating {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 0px;
+  text-align: left;
+	color: yellow;
+  filter:drop-shadow(2px 2px 4px black);  
+}
